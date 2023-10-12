@@ -4,7 +4,7 @@ import java.util.Scanner;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-            Todo my_todo = new Todo();
+            Todo my_todo = new Todo(args);
             my_todo.start();
     }
 }
